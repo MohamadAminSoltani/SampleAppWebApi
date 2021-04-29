@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:LightingsPanel.Views.CustomViews"
+             BackgroundColor="AliceBlue"
+             x:Class="SampleAppWebApi.MainPage">
+
+    <StackLayout HorizontalOptions="FillAndExpand"
+                 
+                 VerticalOptions="CenterAndExpand">
+        <Label Text="Amazon AWS WebApi Test"
+               TextColor="Black"
+               FontSize="Large"
+               FontFamily="iransans"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"/>
+        <views:LightButton x:Name="LightButton"
+                           Margin="40,40"
+                               HorizontalOptions="Fill"
+                               VerticalOptions="Fill"
+                               BtnBackgroundColor="White"
+                               Label="لامپ"
+                               FontFamily="iransans"
+                               BtnImage=""
+                               Clicked="LightButton_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
